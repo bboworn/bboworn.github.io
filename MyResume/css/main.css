@@ -1,0 +1,75 @@
+body {
+    font-family: 'Lora', serif;
+}
+
+.container {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.7)), url('https://images.unsplash.com/photo-1522252234503-e356532cafd5?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    min-height: 100vh;
+    padding: 128px;
+}
+
+@media sreen and (max-width: 768px) {
+    .container {
+        padding: 48px;
+    }
+}
+
+.content {
+    max-width: 500px;
+}
+
+.avatar {
+    width: 210px;
+    height: 210px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 10px 10px 0px 0px orange;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+
+}
+
+.contract-item {
+    margin-bottom: 4px;
+} 
+
+.contract {
+    margin-bottom: 48px;
+}
+
+.contract-icon {
+    margin-right: 12px;
+    width: 16px;
+}
+
+.background{
+    font-size: 18px;
+    font-weight: 300;
+    color: grey;
+    margin-bottom: 24px;
+}
+
+.job{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.name{
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+@media sreen and (max-width: 768px) {
+    .name {
+        font-size: 36px;
+    }
+}
